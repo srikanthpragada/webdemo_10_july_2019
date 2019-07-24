@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Trip Cost Calculator</title>
+    <script>
+        function calculate() {
+            var km = document.getElementById("km").value
+            var l_per_km = document.getElementById("kmperleter").value
+            var fuel_price = document.getElementById("fuel").value
+            console.log(km)
+            console.log(l_per_km)
+            console.log(fuel_price)
+
+            noleters = km / l_per_km
+            cost = noleters * fuel_price
+            alert(cost)
+        }
+    </script>
+</head>
+<body>
+    <h2>Trip Cost Calculator</h2>
+    No. of Killometers <br />
+    <input type="number" id="km" />
+    <p />
+    Killoters per leter <br />
+    <input type="number" id="kmperleter" />
+    <p/>
+    Fuel Type <br/>
+    <select id="fuel">
+       <option value="77">Petrol</option>
+       <option value="70">Diesel</option>
+    </select>
+    <p/>
+    <button onclick="calculate()">Calculate Cost</button>
+
+
+
+</body>
+</html>
