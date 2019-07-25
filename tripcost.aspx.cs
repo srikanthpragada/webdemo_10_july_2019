@@ -18,8 +18,14 @@ namespace WebDemo
         {
             int totalkm = Int32.Parse(txtTotalKM.Text);
             int kmperleter = Int32.Parse(txtKMPerLeter.Text);
+            int rate;
 
-            int cost = (totalkm / kmperleter) * 70;
+            if (rbPetrol.Checked)
+                rate = 77;
+            else
+                rate = 70;
+
+            int cost = (totalkm / kmperleter) * rate;
 
             lblCost.Text = "Cost of Trip : " + cost;
 

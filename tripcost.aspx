@@ -14,7 +14,13 @@
         <p></p>
         KM per leter <br />
         <asp:TextBox ID="txtKMPerLeter" TextMode="Number" runat="server"></asp:TextBox>
-        <p />
+        <p></p>
+        Fuel  
+        <asp:RadioButton ID="rbPetrol" runat="server" GroupName="fuel" 
+             Text="Petrol"  Checked="true" />
+        <asp:RadioButton ID="rbDiesel" runat="server" GroupName="fuel"
+            Text="Diesel" />
+        <p></p>
         <asp:Button ID="btnCalculate" runat="server" Text="Calculate"
              OnClick="btnCalculate_Click" />
         <p />

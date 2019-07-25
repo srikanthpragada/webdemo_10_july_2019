@@ -10,7 +10,7 @@
 namespace WebDemo {
     
     
-    public partial class tripcost {
+    public partial class feefinder {
         
         /// <summary>
         /// form1 control.
@@ -22,57 +22,66 @@ namespace WebDemo {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// txtTotalKM control.
+        /// ddlCourse control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTotalKM;
+        protected global::System.Web.UI.WebControls.DropDownList ddlCourse;
         
         /// <summary>
-        /// txtKMPerLeter control.
+        /// rbClassroom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtKMPerLeter;
+        protected global::System.Web.UI.WebControls.RadioButton rbClassroom;
         
         /// <summary>
-        /// rbPetrol control.
+        /// rbOnline control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rbPetrol;
+        protected global::System.Web.UI.WebControls.RadioButton rbOnline;
         
         /// <summary>
-        /// rbDiesel control.
+        /// chkOldStudent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rbDiesel;
+        protected global::System.Web.UI.WebControls.CheckBox chkOldStudent;
         
         /// <summary>
-        /// btnCalculate control.
+        /// chkMaterial control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCalculate;
+        protected global::System.Web.UI.WebControls.CheckBox chkMaterial;
         
         /// <summary>
-        /// lblCost control.
+        /// btnFind control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCost;
+        protected global::System.Web.UI.WebControls.Button btnFind;
+        
+        /// <summary>
+        /// lblFee control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFee;
     }
 }
