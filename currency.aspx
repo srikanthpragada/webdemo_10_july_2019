@@ -9,12 +9,19 @@
 <body>
     <h2>Convert INR to USD</h2>
     <form id="form1" runat="server">
-    Amount in INR<br />
-    <asp:TextBox ID="txtAmount"  runat="server"></asp:TextBox>
-    <p></p>
-    <asp:Button ID="btnConvert" runat="server" Text="Convert" OnClick="btnConvert_Click" />
-    <p></p>
-    <asp:Label ID="lblUSD" runat="server" Text=""></asp:Label>
+        Amount in INR<br />
+        <asp:TextBox ID="txtAmount" runat="server"></asp:TextBox>
+        <p></p>
+        Target Currency<br />
+        <asp:DropDownList ID="ddlCurrency" runat="server">
+            <asp:ListItem Text="USD" Value="70" />
+            <asp:ListItem Text="Euro" Value="80" />
+            <asp:ListItem Text="SND" Value="50" />
+        </asp:DropDownList>
+        <p />
+        <asp:Button ID="btnConvert" runat="server" Text="Convert" OnClick="btnConvert_Click" />
+        <p></p>
+        <asp:Label ID="lblUSD" runat="server" Text=""></asp:Label>
     </form>
 </body>
 </html>

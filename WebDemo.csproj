@@ -70,6 +70,8 @@
     <Content Include="currency.aspx" />
     <Content Include="feefinder.aspx" />
     <Content Include="index.html" />
+    <Content Include="listtopics.aspx" />
+    <Content Include="selectlang.aspx" />
     <Content Include="tripcost.aspx" />
     <Content Include="tripcost.html" />
     <Content Include="Web.config" />
@@ -89,7 +91,21 @@
     <Compile Include="feefinder.aspx.designer.cs">
       <DependentUpon>feefinder.aspx</DependentUpon>
     </Compile>
+    <Compile Include="listtopics.aspx.cs">
+      <DependentUpon>listtopics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listtopics.aspx.designer.cs">
+      <DependentUpon>listtopics.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selectlang.aspx.cs">
+      <DependentUpon>selectlang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="selectlang.aspx.designer.cs">
+      <DependentUpon>selectlang.aspx</DependentUpon>
+    </Compile>
     <Compile Include="tripcost.aspx.cs">
       <DependentUpon>tripcost.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

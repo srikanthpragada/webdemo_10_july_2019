@@ -11,7 +11,10 @@ namespace WebDemo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Page.IsPostBack)
+                Response.Write("Postback request");
+            else
+                Response.Write("Direct request");
         }
 
         protected void btnConvert_Click(object sender, EventArgs e)
@@ -19,8 +22,9 @@ namespace WebDemo
             try
             {
                 int amount = Int32.Parse(txtAmount.Text);
-                amount = amount / 70;
-                lblUSD.Text = amount + " USD";
+                int rate = Int32.Parse(ddlCurrency.SelectedItem.Value);
+                amount = amount / rate;
+                lblUSD.Text = amount + " " + ddlCurrency.SelectedItem.Text;
             }
             catch(FormatException ex)
             {

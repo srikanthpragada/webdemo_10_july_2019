@@ -10,7 +10,7 @@
 namespace WebDemo {
     
     
-    public partial class currency {
+    public partial class selectlang {
         
         /// <summary>
         /// form1 control.
@@ -22,39 +22,21 @@ namespace WebDemo {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// txtAmount control.
+        /// txtLang control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAmount;
+        protected global::System.Web.UI.WebControls.TextBox txtLang;
         
         /// <summary>
-        /// ddlCurrency control.
+        /// btnSave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlCurrency;
-        
-        /// <summary>
-        /// btnConvert control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnConvert;
-        
-        /// <summary>
-        /// lblUSD control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUSD;
+        protected global::System.Web.UI.WebControls.Button btnSave;
     }
 }
