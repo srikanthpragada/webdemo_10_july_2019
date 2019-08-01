@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adonet\AddCategory.aspx" />
+    <Content Include="adonet\ListProducts.aspx" />
+    <Content Include="adonet\UpdatePrice.aspx" />
     <Content Include="currency.aspx" />
     <Content Include="feefinder.aspx" />
     <Content Include="Global.asax" />
@@ -75,11 +78,33 @@
     <Content Include="Register.aspx" />
     <Content Include="selectlang.aspx" />
     <Content Include="showcount.aspx" />
+    <Content Include="adonet\TestConnection.aspx" />
     <Content Include="tripcost.aspx" />
     <Content Include="tripcost.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adonet\AddCategory.aspx.cs">
+      <DependentUpon>AddCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adonet\AddCategory.aspx.designer.cs">
+      <DependentUpon>AddCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adonet\ListProducts.aspx.cs">
+      <DependentUpon>ListProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adonet\ListProducts.aspx.designer.cs">
+      <DependentUpon>ListProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adonet\UpdatePrice.aspx.cs">
+      <DependentUpon>UpdatePrice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adonet\UpdatePrice.aspx.designer.cs">
+      <DependentUpon>UpdatePrice.aspx</DependentUpon>
+    </Compile>
     <Compile Include="currency.aspx.cs">
       <DependentUpon>currency.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -125,6 +150,13 @@
     </Compile>
     <Compile Include="showcount.aspx.designer.cs">
       <DependentUpon>showcount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adonet\TestConnection.aspx.cs">
+      <DependentUpon>TestConnection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adonet\TestConnection.aspx.designer.cs">
+      <DependentUpon>TestConnection.aspx</DependentUpon>
     </Compile>
     <Compile Include="tripcost.aspx.cs">
       <DependentUpon>tripcost.aspx</DependentUpon>
