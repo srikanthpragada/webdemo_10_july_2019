@@ -68,13 +68,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="adonet\AddCategory.aspx" />
+    <Content Include="adonet\EditProducts.aspx" />
     <Content Include="adonet\ListProducts.aspx" />
+    <Content Include="adonet\ListSales.aspx" />
+    <Content Include="adonet\ProductByCat.aspx" />
     <Content Include="adonet\UpdatePrice.aspx" />
     <Content Include="currency.aspx" />
     <Content Include="feefinder.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="listtopics.aspx" />
+    <Content Include="adonet\product.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="selectlang.aspx" />
     <Content Include="showcount.aspx" />
@@ -91,12 +95,33 @@
     <Compile Include="adonet\AddCategory.aspx.designer.cs">
       <DependentUpon>AddCategory.aspx</DependentUpon>
     </Compile>
+    <Compile Include="adonet\EditProducts.aspx.cs">
+      <DependentUpon>EditProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adonet\EditProducts.aspx.designer.cs">
+      <DependentUpon>EditProducts.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adonet\ListProducts.aspx.cs">
       <DependentUpon>ListProducts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="adonet\ListProducts.aspx.designer.cs">
       <DependentUpon>ListProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adonet\ListSales.aspx.cs">
+      <DependentUpon>ListSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adonet\ListSales.aspx.designer.cs">
+      <DependentUpon>ListSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adonet\ProductByCat.aspx.cs">
+      <DependentUpon>ProductByCat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adonet\ProductByCat.aspx.designer.cs">
+      <DependentUpon>ProductByCat.aspx</DependentUpon>
     </Compile>
     <Compile Include="adonet\UpdatePrice.aspx.cs">
       <DependentUpon>UpdatePrice.aspx</DependentUpon>
@@ -128,6 +153,13 @@
     </Compile>
     <Compile Include="listtopics.aspx.designer.cs">
       <DependentUpon>listtopics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adonet\product.aspx.cs">
+      <DependentUpon>product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adonet\product.aspx.designer.cs">
+      <DependentUpon>product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
